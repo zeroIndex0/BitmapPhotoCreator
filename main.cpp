@@ -84,6 +84,18 @@ int main(void) {
         }
     }
 
+    //repeated pattern
+    int zoom = 8;
+    for(int y = 0; y < HEIGHT; y+=2) {
+        for(int x = 0; x < WIDTH; x+=2) {
+            int value = ( x / zoom * y / zoom ) % 2;
+            if (value) {
+                example.setPixel(x, y, 150, 150, 150);
+            } else {
+                example.setPixel(x, y, 0, 0, 0);
+            }
+        }
+    }
 
 
     example.write("test.bmp");   //writes the bitmap and the name passed in will be a created bitmap
