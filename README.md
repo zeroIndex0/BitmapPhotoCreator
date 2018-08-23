@@ -15,10 +15,10 @@ The basics to create a bitmap image with examples of what can be created.
 <p><em><strong>Note that this will run and create an image without adjusting any code.  Below is just an explanation of how to change properties.</strong></em></p>
 
 You can create a Bitmap image with the constructor:
-  Bitmap(width_you_want_image_to_be, height_you_want_image_to_be);
+  <code>Bitmap(<em>width_you_want_image_to_be</em>, <em>height_you_want_image_to_be</em>);</code>
 
 The Bitmap class has a method called setPixles, which is what needs to be called when setting pixels at desired locations:
-  bitmapClassObject.setPixels(x-coord, y-coord, red, green, blue);
+  <code>bitmapClassObject.setPixels(<em>x-coordinate</em>, <em>y-coordinate</em>, <em>red</em>, <em>green</em>, <em>blue</em>);</code>
 
 You can loop through each pixel and set the red, green, and blue values to the desired color as you pass over the pixel.
 This is similar to the fractal generator, but I was wanting something that is a stand-alone bitmap creator.  So these files are
