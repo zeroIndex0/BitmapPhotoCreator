@@ -22,5 +22,4 @@ The Bitmap class has a method called setPixles, which is what needs to be called
 
 You can loop through each pixel and set the red, green, and blue values to the desired color as you pass over the pixel.
 This is similar to the fractal generator, but I was wanting something that is a stand-alone bitmap creator.  So these files are
-all that is needed in order to create a bitmap and you can programatically set each pixel.  It's really fun and I recommend
-everyone to check it out.
+all that is needed in order to create a bitmap and you can programatically set each pixel.
