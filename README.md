@@ -1,6 +1,6 @@
 # BitmapPhotoCreator
 
-I used Code::Blocks 16.01 with the default complier to create this program.
+I used Code::Blocks 16.01 with the default complier when creating this program.
 
 This program is, hopefully, simple to set up.  You just need to put all the files in this repository into a folder and
 link those files with whatever compiler you are using and then build and run the project.  In my case, I create an empty project in
